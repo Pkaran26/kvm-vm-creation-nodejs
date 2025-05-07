@@ -1,0 +1,12 @@
+node_modules
+yarn-error.log
+yarn.lock
+.env
+.env.production
+public
+logs
+out/
+users.
+
+/vm_images
+/src/virtual-machine/vm_images

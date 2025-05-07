@@ -1,0 +1,13 @@
+curl -X POST http://localhost:3000/vm/api/vms   -H "Content-Type: application/json"   -d '{
+    "name": "centos8",
+    "isoImageName": "centos8",
+    "memory": 3072,
+    "vcpu": 2,
+    "diskSizeGB": 20,
+    "network": "myfreenetwork",    
+    "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIS0mmbs3DZBIiJRvxdOQYT0L44+IButThC+egyUBU/+ Indiqus"
+  }'
+
+curl -X DELETE http://localhost:3000/vm/api/vms/ubuntu22
+
+//http://localhost:3000/vm/api/vms

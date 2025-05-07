@@ -1,0 +1,7 @@
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
+sudo apt install genisoimage
+
+
+sudo chmod o+x /home/prateek
+
+sudo virt-install --osinfo list
